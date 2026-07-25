@@ -289,11 +289,10 @@ if st.button("🚀 Predict Price"):
     elif current_floor > total_floors:
         st.error("⚠️ Current Floor cannot be greater than Total Floors")
 
-    elif bhk < bathroom:
-        st.warning("⚠️ Bathrooms are more than BHK (check if this is correct)")
-
     else:
-
+        if bathroom > bhk + 2:
+            st.warning("⚠️ Unusual: Bathrooms significantly exceed BHK. Please double-check.")
+            
         # =========================
         # Prepare Data
         # =========================
