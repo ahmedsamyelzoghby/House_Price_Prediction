@@ -157,7 +157,7 @@ House_Price_Prediction/
 
 ```bash
 # Clone repo
-git clone <your-repo-link>
+git clone https://github.com/ahmedsamyelzoghby/House_Price_Prediction.git
 
 # Go to project
 cd House_Price_Prediction
