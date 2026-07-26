@@ -259,7 +259,7 @@ st.markdown("### 🌴 Views")
 
 view = st.multiselect(
     "Select Views",
-    ["Garden_Park", "Main_Road", "Pool"]
+    ["Garden_Park", "Main_Road", "Pool", "Unknown"]
 )
 
 # =========================
